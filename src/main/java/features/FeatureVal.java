@@ -5,7 +5,7 @@ import lombok.val;
 import java.util.ArrayList;
 
 public class FeatureVal {
-  public void show() {
+  public static void show() {
     val messages = new ArrayList<>();
 
     // Not modified after initialize
